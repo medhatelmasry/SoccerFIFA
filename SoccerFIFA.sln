@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorFIFA", "BlazorFIFA\BlazorFIFA.csproj", "{FA864D90-F401-4024-BD0C-F1B7E3127BB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiFIFA", "WebApiFIFA\WebApiFIFA.csproj", "{C240EDB8-CD4F-4F05-BF97-259970A0BAC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryFIFA", "LibraryFIFA\LibraryFIFA.csproj", "{83E4300D-C0AE-49A7-8246-77152B149C5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA864D90-F401-4024-BD0C-F1B7E3127BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA864D90-F401-4024-BD0C-F1B7E3127BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA864D90-F401-4024-BD0C-F1B7E3127BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA864D90-F401-4024-BD0C-F1B7E3127BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C240EDB8-CD4F-4F05-BF97-259970A0BAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C240EDB8-CD4F-4F05-BF97-259970A0BAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C240EDB8-CD4F-4F05-BF97-259970A0BAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C240EDB8-CD4F-4F05-BF97-259970A0BAC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E4300D-C0AE-49A7-8246-77152B149C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E4300D-C0AE-49A7-8246-77152B149C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E4300D-C0AE-49A7-8246-77152B149C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E4300D-C0AE-49A7-8246-77152B149C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E377B52-9DDD-4E3C-9633-BD723636F815}
+	EndGlobalSection
+EndGlobal

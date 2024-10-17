@@ -62,7 +62,3 @@ app.MapGet("/api/games/{id}", async (int id, ApplicationDbContext db) =>
 
 app.Run();
 
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

@@ -6,7 +6,7 @@
 # dotenv files
 .env
 
-college.db
+college.*
 
 # User-specific files
 *.rsuser

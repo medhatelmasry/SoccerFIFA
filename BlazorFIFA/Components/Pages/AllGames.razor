@@ -43,8 +43,6 @@ else
     int numGames = 0;
     protected override async Task OnInitializedAsync()
     {
-        @* games = await httpClient.GetFromJsonAsync<List<Game>>($"{Constants.ApiBaseUrl}api/games"); *@
-
         games = await apiClient.GetAllGamesAsync();
         if(games != null)
         numGames = games.Length;

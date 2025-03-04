@@ -42,12 +42,8 @@ else
     int numGames = 0;
     protected override async Task OnInitializedAsync()
     {
-        await load();
+        games = await apiClient.GetMenGamesAsync();
         if(games != null)
         numGames = games.Length;
-    }
-    protected async Task load()
-    {
-        games = await apiClient.GetMenGamesAsync();
     }
 }

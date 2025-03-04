@@ -30,10 +30,6 @@ else
     ContinentCount[]? continents;
     protected override async Task OnInitializedAsync()
     {
-        await load();
-    }
-    protected async Task load()
-    {
         continents = await apiClient.GetCountByContinentAsync();
     }
 }
